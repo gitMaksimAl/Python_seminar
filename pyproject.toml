@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lesson1"
+version = "0.1.0"
+description = ""
+authors = ["Maksim Aleksanin <maksim.g00gle@gmail.com>"]
+license = "nolicense"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
