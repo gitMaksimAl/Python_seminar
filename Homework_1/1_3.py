@@ -24,8 +24,6 @@ while ticket > 0:
     ticket //= 10
     divisor //= 100
 
-print(f'sum1 - {sum1} sum2 - {sum2}')
-
 if sum1 == sum2:
     print('Счасливый билет!!!')
 else:
