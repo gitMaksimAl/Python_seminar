@@ -7,14 +7,17 @@
 
 amount = int(input('Количество элементов '))
 
+too_close = 0
 listA = []
 for i in range(amount):
     listA.append(int(input('Введите число ')))
 numX = int(input('Введите число Х '))
-if numX not in listA:
-    listA.append(numX)
-listA.sort()
-too_close = listA.index(numX)
 
-print(*listA)
-print(listA[too_close - 1] if too_close != 0 else listA[too_close])
+diff = listA[0] - numX if numX < listA[0] else numX - listA[0]
+for i in range(1, amount):
+    diff2 = listA[i] - numX if numX < listA[i] else numX - listA[i]
+    if diff > diff2:
+        diff = diff2
+        too_close = i
+
+print(listA[too_close])
