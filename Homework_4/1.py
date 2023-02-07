@@ -6,11 +6,9 @@
 # множества. m - кол-во элементов второго множества. Затем пользователь вводит
 # сами элементы множеств
 
-from random import randint
-
 n = int(input('Количество элементов первого множества '))
-lst_1 = [int(input()) for i in range(n)]
+lst_1 = [int(input()) for _ in range(n)]
 m = int(input('Количество элементов второго множества '))
-lst_2 = [int(input()) for i in range(m)]
+lst_2 = [int(input()) for _ in range(m)]
 
 print(*sorted(set(lst_1).intersection(set(lst_2))))
