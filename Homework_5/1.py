@@ -9,6 +9,6 @@ def power_to(num: int, power: int) -> int:
     return power_to(num, power - 1) * num
 
 
-chisloA = int(input('Введите число '))
-chisloB = int(input('Введите целую степень '))
-print(f"1/{power_to(chisloA, -chisloB)}" if chisloB < 0 else power_to(chisloA, chisloB))
+num_a = int(input('Введите число '))
+num_b = int(input('Введите целую степень '))
+print(f"1/{power_to(num_a, -num_b)}" if num_b < 0 else power_to(num_a, num_b))
