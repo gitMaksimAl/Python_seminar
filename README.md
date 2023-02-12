@@ -6,4 +6,4 @@ Work with range, statements, __Vieta's formulas__(формула Виета)
 # Lesson 3
 Work with dictionary, lists, list comprehension.
 # Lesson 4
-Work with set, dictionary, frequency dictionary, circular pass through array.t 
+Work with set, dictionary, frequency dictionary, circular pass through array.
