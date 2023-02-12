@@ -3,10 +3,6 @@
 # Напишите функцию, которая принимает одно число и проверяет
 # является ли оно простым.
 
-"""
-Script take an integer and print out, prime is it or not prime.
-"""
-
 
 def is_prime(num: int) -> bool:
     if num == 2:

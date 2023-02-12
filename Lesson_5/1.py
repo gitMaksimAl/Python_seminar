@@ -3,11 +3,12 @@
 # Требуется найти число Фибоначи, используя рекурсию.
 
 
-def fibR(num):
+def fibo(num):
     if num < 2:
         return 1
     else:
-        return fibR(num - 1) + fibR(num - 2)
+        return fibo(num - 1) + fibo(num - 2)
+
 
 n = int(input('Введите число '))
-print(fibR(n))
+print(fibo(n))
