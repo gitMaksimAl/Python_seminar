@@ -1,6 +1,5 @@
-![Python logo] (https://www.python.org/static/img/python-logo.png)
-
 # Python_seminar
+![python logo](https://www.python.org/static/img/python-logo.png)
 
 ## Lesson 1
 Work with input, __round up__ the numbers, statements. Parse numbers
@@ -16,4 +15,4 @@ Work with set, dictionary, frequency dictionary, circular pass through array.
 
 # Lesson 5
 Work with recursion, __prime numbers__, __reverse data with recursion__,
-using __count in args__ to invoke recursion.
+using __count in args__ to invoke recursion, use __addition method one by one__
