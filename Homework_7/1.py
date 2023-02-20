@@ -14,7 +14,7 @@ vow_ru = "аяеёуюоэиы"
 
 
 def parsed_song(data: str):
-    words = data.split()
+    words = data.lower().split()
     if len(words) <= 1:
         print('Wrong song')
         return None
