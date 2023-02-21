@@ -20,3 +20,6 @@ using __count in args__ to invoke recursion, use __addition method one by one__
 # Lesson 6
 Work with lists, map function, compare neighboring elements, compare lists, __math progression__,
 count pairs in list, find a divisors, find an __amicable numbers__(дружественные числа).
+
+# Lesson 7
+Find __elipse area__ with high-order functions, using list comprehension, formatted strings.
