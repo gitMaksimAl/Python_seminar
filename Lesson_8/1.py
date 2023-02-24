@@ -41,6 +41,7 @@ def save_db():
             f.write(i + '\n')
     print('Phonebook saved.')
 
+
 def find_one():
     global records
 
