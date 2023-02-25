@@ -53,7 +53,7 @@ def find_one():
 
 
 def add_one():
-    global member_skel
+    global record_template
     global records
     global i_d
 
@@ -103,7 +103,7 @@ if len(records) != 0:
 else:
     i_d = 0
 
-member_skel = {'f_name': '',
+record_template = {'f_name': '',
                'l_name': '',
                'sur_name': '',
                'phone': ''}
