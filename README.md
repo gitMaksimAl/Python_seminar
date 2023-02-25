@@ -23,3 +23,6 @@ count pairs in list, find a divisors, find an __amicable numbers__(дружес�
 
 ## Lesson 7
 Find __elipse area__ with high-order functions, using list comprehension, formatted strings.
+
+## Lesson 8
+Work with files. Make simple phonebook.
