@@ -33,5 +33,6 @@ and [datalore](https://datalore.jetbrains.com/notebook/2InEwH6kBYAB7F3QV7eAug/t9
 [Homework](https://colab.research.google.com/drive/1q4Eg5ptbanIe_FpQtspNj-jH_3OaXEQ3?usp=share_link)
 
 ## Lesson 10
-Work with seaborn and pandas. [Homework](https://colab.research.google.com/drive/12A3Gnv-kjm-GLUoPatnWJBbCGkdj0j9y?usp=share_link)
+Work with seaborn and pandas. Plotting, bringing to the __'one hot'__ form.
+[One hot encoding: homework](https://colab.research.google.com/drive/12A3Gnv-kjm-GLUoPatnWJBbCGkdj0j9y?usp=share_link)
 ![pandas logo](https://pandas.pydata.org/docs/_static/pandas.svg)
